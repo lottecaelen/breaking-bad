@@ -1,0 +1,418 @@
+body {
+    background: white;
+}
+
+header {
+    background-image: url("../img/header.jpeg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.player {
+    width: 100px;
+    height: 20px;
+    background: none;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#push {
+    display: none;
+    margin: 0 auto;
+}
+
+#playtheme {
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    background: yellow;
+    width: 100px;
+    height: 50px;
+}
+
+#download {
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    background: yellow;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.intro {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+}
+
+.intro h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    padding: 50px;
+}
+
+.plot {
+    width: 600px;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+h4 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding: 25px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+main p {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#vidbutton1 {
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    background: yellow;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#vidbutton2 {
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    background: yellow;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#vidbutton3 {
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    background: yellow;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#blok p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0, 1em;
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+    visibility: hidden;
+}
+
+#blok h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin: 20px;
+    visibility: hidden;
+}
+
+.grid {
+    margin: 110px;
+    position: relative;
+    height: 1200px;
+}
+
+.rijeen {
+    margin: 0 auto;
+    position: relative;
+}
+
+.rijtwee {
+    margin: 0 auto;
+    position: relative;
+}
+
+.rijdrie {
+    margin: 0 auto;
+    position: relative;
+}
+
+.fring {
+    background-image: url("../img/fring.jpeg");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 0px;
+}
+
+.hank {
+    background-image: url("../img/hank.jpeg");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 0px;
+}
+
+.jesse {
+    background-image: url("../img/jesse.jpeg");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 0px;
+}
+
+.lydia {
+    background-image: url("../img/lydia.jpeg");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 0px;
+}
+
+.marie {
+    background-image: url("../img/marie.jpeg");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 0px;
+}
+
+.mike {
+    background-image: url("../img/mike.jpeg");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 0px;
+}
+
+.saul {
+    background-image: url("../img/saul.jpeg");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 0px;
+}
+
+.skyler {
+    background-image: url("../img/skyler.jpeg");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 0px;
+}
+
+.walter {
+    background-image: url("../img/walter.jpeg");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 0px;
+}
+
+#blok:hover {
+    visibility: visible;
+    background: black;
+}
+
+#blok:hover .tekst {
+    visibility: visible;
+}
+
+h3 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+#accordion {
+    width: 800px;
+    position: relative;
+    left: 25%;
+}
+
+.season {
+    width: 600px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#sketchwrapper {
+    display: block;
+}
+
+#colors {
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    background: yellow;
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+}
+
+#blackwhite {
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    background: yellow;
+    width: 100px;
+    height: 50px;
+}
+
+.popup {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    padding: 20px;
+}
+
+@media (max-width:1200px) {
+    #myvid1 {
+        width: 600px;
+    }
+    #myvid2 {
+        width: 600px;
+    }
+    #myvid3 {
+        width: 600px;
+    }
+}
+
+@media (max-width:1024px) {
+    #myvid1 {
+        width: 500px;
+    }
+    #myvid2 {
+        width: 500px;
+    }
+    #myvid3 {
+        width: 500px;
+    }
+    #accordion {
+        width: 50%;
+    }
+    #accordion p {
+        font-size: 60%;
+        width: 75%;
+    }
+}
+
+@media (max-width:768px) {
+    .popup {
+        display: block;
+    }
+    #myvid1 {
+        width: 400px;
+    }
+    #myvid2 {
+        width: 400px;
+    }
+    #myvid3 {
+        width: 400px;
+    }
+    main p {
+        width: 75%;
+        font-size: 75%;
+        margin: 5%;
+        text-align: left;
+    }
+    .plot {
+        padding: 0;
+    }
+    .sketchwrapper {
+        display: none;
+    }
+    #accordion {
+        width: 50%;
+    }
+    #accordion p {
+        font-size: 50%;
+        width: 75%;
+    }
+    #defaultCanvas0 {
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+    .intro p {
+        font-size: 50%;
+    }
+    #myvid1 {
+        width: 300px;
+    }
+    #myvid2 {
+        width: 300px;
+    }
+    #myvid3 {
+        width: 300px;
+    }
+    main p {
+        width: 400px;
+        font-size: 1em;
+        text-align: left;
+    }
+    .sketchwrapper {
+        display: none;
+    }
+    #defaultCanvas0 {
+        display: none;
+    }
+}
